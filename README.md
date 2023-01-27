@@ -1,4 +1,8 @@
-# entity-kafka Project
+# Kafka-Quarkus Project
+This project is the backend implementation of Quarkus with Kafka broker with REST services to provide JSON data for fields of an entity in parts 
+and the entity gets added or updated in the repository accordingly.
+
+
 
 This project uses Quarkus, the Supersonic Subatomic Java Framework.
 
