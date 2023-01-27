@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>POC-Quarkus-Kafka</title>
+<body>
+    <h1>POC on Quarkus-Kafka with Postgres</h1>
+    <h3>Sabbyasachi Chakraborty</h3>
+    <hr>
+    <p><b>Question:</b>  A Quarkus application has to be created which will integrate with Postgres Database and Kafka Broker so that an Entity can be added in parts(Partial JSONs) getting identified whether being added or updated along with reading, updating or deleting the entity.<br>
+        <b>Steps :-</b>
+        <ul>
+            <li>Created a Quarkus application based on the devon architecture (dataaccess, logic and service layered with api and implementations) which will receive the entity in parts identified by its ID (as JSONs through Postman) and identify and add it to database.</li>
+       <li>Configured the Postgres database along with the entity Repository(as JPARepository).</li>
+        <li>Integrated Kafka to produce the entity received and consume it to implement the logic.</li>
+        <li>Implemented the REST endpoints and all the possible test cases to check the intended working of the application.</li>
+    </ul>
+        <b>Scope of improvement-</b> More complex mappings need to be implemented with related entities and a fully functional frontend needs to be developed with Angular which can accept the entities and forward it to backend.
+    </p>
+    <p><a href="http://localhost:8080/company/companies">Get all the Companies(Entities) in Database</a></p>
+    </body>
+</html>
